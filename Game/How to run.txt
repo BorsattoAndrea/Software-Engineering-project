@@ -1,0 +1,12 @@
+Per runnare la nostra applicazione, prima bisogna far partire il server tramite
+
+java -jar AM52-1.0-SNAPSHOT-jar-with-dependencies.jar --server 9047
+
+Successivamente si può utilizzare la CLI:
+
+java -jar AM52-1.0-SNAPSHOT-jar-with-dependencies.jar --cli --IP 127.0.0.1 9047
+java -jar AM52-1.0-SNAPSHOT-jar-with-dependencies.jar -c --IP 127.0.0.1 9047
+
+O la GUI:
+
+java -jar AM52-1.0-SNAPSHOT-jar-with-dependencies.jar --IP 127.0.0.1 9047
